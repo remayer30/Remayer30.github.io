@@ -10,4 +10,5 @@
 [ESPN](https://www.espn.com/)  I recommend this website because it has all the sports news from around the world, so you can stay caught up.
 
 [wordle](https://www.nytimes.com/games/wordle/index.html) I recommend this website because every day it posts a new word that you have to find within 6 guesses.It is super fun to try and guess these words.
-
+git checkout -b lesson7
+git add lesson7.html
