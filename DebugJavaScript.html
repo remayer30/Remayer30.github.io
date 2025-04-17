@@ -28,12 +28,15 @@
     
     <script>
         function calculateMortgage() {
+            // Get the initial amount from the principal box
             const principal = document.getElementById("principle").value;
-
+            
+            // update rate from the box
             const rate = document.getElementById("rate").value / 100;
-
+            // get the years to calculate
             const years = document.getElementById("years").value;
-
+            
+            // Call the power funtion, pow, from Math
             const monthlyRate = Math.pw(1 + rate, years * 12);
 
             if (rate === 0) {
